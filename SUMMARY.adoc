@@ -10,13 +10,14 @@
 
 . link:第三章.asciidoc[第三章以太坊客户端]
 
-. link:第五章.asciidoc[第五章密钥，地址]
+. link:第五章.asciidoc[第四章密钥，地址]
 
-. link:第六章.asciidoc[第六章钱包]
+. link:第六章.asciidoc[第五章钱包]
 
-. link:第七章.asciidoc[第七章交易]
+. link:第七章.asciidoc[第六章交易]
 
-. link:第八章.asciidoc[第八章智能合约-solidity]
+. link:第八章.asciidoc[第七章智能合约-solidity]
+. link:第十六章.asciidoc[第八章Vyper: 面向合约的编程语言]
 
 . link:第九章.asciidoc[第九章开发工具，框架和库] 
 
@@ -31,8 +32,6 @@
 . link:第十四章.asciidoc[第十四章以太坊虚拟机]
 
 . link:第十五章.asciidoc[第十五章共识]
-
-. link:第十六章.asciidoc[第十六章Vyper: 面向合约的编程语言]
 
 . link:第十七章.asciidoc[第十七章节点间的通信 —— 一个简单的视角]
 
