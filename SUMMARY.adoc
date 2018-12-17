@@ -4,28 +4,41 @@
 
 . link:术语.asciidoc[术语]
 
-. link:第一章.asciidoc[第一章]
+. link:第一章.asciidoc[第一章 什么是以太坊]
 
-. link:第二章.asciidoc[第二章]
+. link:第二章.asciidoc[第二章以太坊基础]
 
-. link:第三章.asciidoc[第三章]
+. link:第三章.asciidoc[第三章以太坊客户端]
 
-. link:第四章.asciidoc[第四章]
+. link:第四章.asciidoc[第四章以太坊测试网（Testnets）]
 
-. link:第五章.asciidoc[第五章]
+. link:第五章.asciidoc[第五章密钥，地址]
 
-. link:第六章.asciidoc[第六章]
-. link:第七章.asciidoc[第七章]
-. link:第八章.asciidoc[第八章]
-. link:第九章.asciidoc[第九章]
-. link:第十章.asciidoc[第十章]
-. link:第十一章.asciidoc[第十一章]
-. link:第十二章.asciidoc[第十二章]
-. link:第十三章.asciidoc[第十三章]
-. link:第十四章.asciidoc[第十四章]
-. link:第十五章.asciidoc[第十五章]
-. link:第十六章.asciidoc[第十六章]
-. link:第十七章.asciidoc[第十七章]
-. link:第十八章.asciidoc[第十八章]
-. link:第十九章.asciidoc[第十九章]
+. link:第六章.asciidoc[第六章钱包]
+
+. link:第七章.asciidoc[第七章交易]
+
+. link:第八章.asciidoc[第八章智能合约]
+
+. link:第九章.asciidoc[第九章开发工具，框架和库]
+
+. link:第十章.asciidoc[第十章Tokens]
+
+. link:第十一章.asciidoc[第十一章去中心化应用 (DApps)]
+
+. link:第十二章.asciidoc[第十二章Oracles]
+
+. link:第十三章.asciidoc[第十三章gas（Gas）]
+
+. link:第十四章.asciidoc[第十四章以太坊虚拟机]
+
+. link:第十五章.asciidoc[第十五章共识]
+
+. link:第十六章.asciidoc[第十六章Vyper: 面向合约的编程语言]
+
+. link:第十七章.asciidoc[第十七章节点间的通信 —— 一个简单的视角]
+
+. link:第十八章.asciidoc[第十八章以太坊标准]
+
+. link:第十九章.asciidoc[第十九章以太坊分叉历史]
 
