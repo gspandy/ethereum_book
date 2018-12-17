@@ -10,17 +10,15 @@
 
 . link:第三章.asciidoc[第三章以太坊客户端]
 
-. link:第四章.asciidoc[第四章以太坊测试网（Testnets）]
-
 . link:第五章.asciidoc[第五章密钥，地址]
 
 . link:第六章.asciidoc[第六章钱包]
 
 . link:第七章.asciidoc[第七章交易]
 
-. link:第八章.asciidoc[第八章智能合约]
+. link:第八章.asciidoc[第八章智能合约-solidity]
 
-. link:第九章.asciidoc[第九章开发工具，框架和库]
+. link:第九章.asciidoc[第九章开发工具，框架和库] 
 
 . link:第十章.asciidoc[第十章Tokens]
 
