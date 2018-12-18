@@ -4,7 +4,7 @@
 
 . link:术语.asciidoc[术语]
 
-. link:01.asciidoc[第一章 什么是以太坊]
+. link:01.asciidoc[第一章什么是以太坊]
 
 . link:02.asciidoc[第二章以太坊基础]
 
@@ -18,7 +18,7 @@
 
 . link:07.asciidoc[第七章智能合约-solidity]
 . link:08.asciidoc[第八章Vyper: 面向合约的编程语言]08
-. link:09smart-contracts-security.asciidoc[smart-contracts-security]
+. link:09smart-contracts-security.asciidoc[第九章smart-contracts-security]
 
 . link:10.asciidoc[第十章Tokens]
 . link:11.asciidoc[第十一章Oracles]
@@ -33,7 +33,7 @@
 . link:f02.asciidoc[附录二以太坊标准]
 . link:f03.asciidoc[附录三gas（Gas）]
 . link:f04.asciidoc[附录四开发工具，框架和库] 
-. link:appdx-web3js-tutorial.asciidoc
+. link:appdx-web3js-tutorial.asciidoc[web3js]
 
 . link:第十七章.asciidoc[第十七章节点间的通信 —— 一个简单的视角]
 
