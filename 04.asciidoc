@@ -147,20 +147,60 @@ image::images/simple_elliptic_curve.png["ecc-curve"]
 
 以太坊使用特定的椭圆曲线和一组数学常数，由国家标准与技术研究院（NIST）制定的名为 +secp256k1+ 的标准中所定义的。+secp256k1+ 曲线由以下函数定义，该函数产生一个椭圆曲线：
 
-[latexmath]
 ++++
-\begin{equation}
-{y^2 = (x^3 + 7)}~\text{over}~(\mathbb{F}_p)
-\end{equation}
+<div data-type="equation">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mrow>
+      <msup><mi>y</mi> <mn>2</mn> </msup>
+      <mo>=</mo>
+      <mrow>
+        <mo>(</mo>
+        <msup><mi>x</mi> <mn>3</mn> </msup>
+        <mo>+</mo>
+        <mn>7</mn>
+        <mo>)</mo>
+      </mrow>
+    </mrow>
+    <mspace width="3.33333pt"/>
+    <mtext>over</mtext>
+    <mspace width="3.33333pt"/>
+    <mrow>
+      <mo>(</mo>
+      <msub><mi>&#x1d53d;</mi> <mi>p</mi> </msub>
+      <mo>)</mo>
+    </mrow>
+  </mrow>
+</math>
+</div>
 ++++
 
-或
+or:
 
-[latexmath]
 ++++
-\begin{equation}
-{y^2 \mod p = (x^3 + 7) \mod p}
-\end{equation}
+<div data-type="equation">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <msup><mi>y</mi> <mn>2</mn> </msup>
+    <mspace width="3.33333pt"/>
+    <mo form="prefix">mod</mo>
+    <mspace width="0.277778em"/>
+    <mi>p</mi>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <msup><mi>x</mi> <mn>3</mn> </msup>
+      <mo>+</mo>
+      <mn>7</mn>
+      <mo>)</mo>
+    </mrow>
+    <mspace width="3.33333pt"/>
+    <mo form="prefix">mod</mo>
+    <mspace width="0.277778em"/>
+    <mi>p</mi>
+  </mrow>
+</math>
+</div>
 ++++
 
 _mod p_ (模素数p) 表示该曲线在素数阶_p_的有限域上，也写作 latexmath:[\( \mathbb{F}_p \)], 其中 p = 2^256^ – 2^32^ – 2^9^ – 2^8^ – 2^7^ – 2^6^ – 2^4^ – 1, 一个非常大的素数。
