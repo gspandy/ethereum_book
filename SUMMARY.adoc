@@ -10,7 +10,6 @@
 
 . link:03.asciidoc[第三章以太坊客户端]
 
-<<<<<<< HEAD
 . link:04.asciidoc[第四章密钥，地址]
 
 . link:05.asciidoc[第五章钱包]
