@@ -461,7 +461,34 @@ image::images/published_contract_transactions.png["Etherscan showing the transac
 
 在以太坊实现的ECDSA中，被签名的“消息”是交易，或者更确切地说，来自交易的RLP编码数据的Keccak256哈希。签名密钥是EOA的私钥。结果是签名：
 
-latexmath:[\(Sig = F_{sig}(F_{keccak256}(m), k)\)]
+++++
+<div data-type="equation">
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mrow>
+    <mrow>
+      <mi>S</mi>
+      <mi>i</mi>
+      <mi>g</mi>
+    </mrow>
+    <mo>=</mo>
+    <msub><mi>F</mi> <mrow><mi>s</mi><mi>i</mi><mi>g</mi></mrow> </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub><mi>F</mi> <mrow><mi>k</mi><mi>e</mi><mi>c</mi><mi>c</mi><mi>a</mi><mi>k</mi><mn>256</mn></mrow> </msub>
+      <mrow>
+        <mo>(</mo>
+        <mi>m</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>k</mi>
+      <mo>)</mo>
+    </mrow>
+  </mrow>
+</math>
+</div>
+++++
+
 
 其中:
 
@@ -497,6 +524,7 @@ Sig = (R, S)
 临时密钥对由两个输入值生成：
 
 1.一个随机数_q_，用作临时私钥
+
 1.和椭圆曲线生成点_G_
 
 从_q_和_G_开始，我们生成相应的临时公钥_Q_（以_Q = q * G_计算，与以太坊公钥的派生方式相同，参见<<pubkey>>）。数字签名的_R_值就是临时公钥_Q_的x坐标。
