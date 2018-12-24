@@ -10,6 +10,7 @@
 
 . link:03.asciidoc[第三章以太坊客户端]
 
+<<<<<<< HEAD
 . link:04.asciidoc[第四章密钥，地址]
 
 . link:05.asciidoc[第五章钱包]
@@ -19,6 +20,7 @@
 . link:07.asciidoc[第七章智能合约-solidity]
 . link:08.asciidoc[第八章Vyper: 面向合约的编程语言]08
 . link:09smart-contracts-security.asciidoc[第九章smart-contracts-security]
+
 
 . link:10.asciidoc[第十章Tokens]
 . link:11.asciidoc[第十一章Oracles]
@@ -36,7 +38,7 @@
 . link:appdx-web3js-tutorial.asciidoc[web3js]
 
 . link:第十七章.asciidoc[第十七章节点间的通信 —— 一个简单的视角]
-
+. link:第四章.asciidoc[第四章节以太坊测试网]
 
 
 
